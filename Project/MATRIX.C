@@ -150,6 +150,13 @@ void main (){
 		if(letra == 'p'){
 			clear_screen();
 		}
+
+		if(letra == '.'){
+			setVESA(NORMAL_MODE);
+			menu();
+			getch();
+			setVESA(SVGA_MODE);
+		}
 		print_poligono(&casa, 12, 5);
 		print_poligono(&arbol, 8, 10);
 	}

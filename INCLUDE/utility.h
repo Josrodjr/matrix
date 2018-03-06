@@ -106,3 +106,23 @@ int sign(int x){
 	}
 	return 0;
 }
+
+void menu (){
+  printf("Herramientas para CASA\n");
+  printf("A - Izquierda, D - Derecha, W - Arriba, S - Abajo\n");
+  printf("Q - Agrandar, E - Disminuir tamanio\n");
+  printf("Z - Rotar Izquierda, X - Rotar Derecha\n");
+  printf("R - Sheer Izquierda, F - Sheer Derecha\n");
+  printf("V - Llenar poligono\n\n");
+
+  printf("Herramientas para ARBOL\n");
+  printf("J - Izquierda, L - Derecha, I - Arriba, K - Abajo\n");
+  printf("U - Agrandar, O - Disminuir tamanio\n");
+  printf("N - Rotar Izquierda, M - Rotar Derecha\n");
+  printf("Y - Sheer Izquierda, H - Sheer Derecha\n");
+  printf("B - Llenar poligono\n\n");
+
+  printf("Funciones extra:\n");
+  printf("P - Borrar Pantalla\n");
+  printf(". - Menu\n");
+}
